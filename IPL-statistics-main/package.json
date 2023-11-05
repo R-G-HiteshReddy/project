@@ -1,0 +1,29 @@
+{
+  "name": "ipl_drill",
+  "version": "1.0.0",
+  "description": "\"Extracting details from IPL files\"",
+  "main": "index.js",
+  "scripts": {
+    "build-documentation": "npx jsdoc -d public -r ./functions/",
+    "start": "node ./src/server/index.js ",
+    "run": "http-server '/home/aswin/Desktop/IPL_Drill/src/public'"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Aswin10Kumar/aswin_ipl_project.git"
+  },
+  "author": "Aswin Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Aswin10Kumar/aswin_ipl_project/issues"
+  },
+  "homepage": "https://gitlab.com/Aswin10Kumar/aswin_ipl_project#readme",
+  "dependencies": {
+    "csv-parse": "^4.16.2",
+    "http-server": "^13.0.1"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.7"
+  }
+}
